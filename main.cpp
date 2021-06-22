@@ -1,14 +1,14 @@
 #include <iostream>
 // cryptographic lib
 
-DEMO_HOST = '';
-PROD_HOST = '';
+const int DEMO_HOST = '';
+const int PROD_HOST = '';
 
 
 class Client {
-    base_url: string;
-    soap_url: string;
-    session: Session;
+    int base_url = string;
+    int soap_url = string;
+    int session = Session;
 
     accounts:
     Orders:
@@ -20,28 +20,28 @@ class Client {
 
 void Post() {
 
-}
+};
 
 
-void put() {}
+void put() {};
 
-void put() {}
+void put() {};
 
-void delete() {}
+void delete() {};
 
-void request() {}
+void request() {};
 
 void _check_response() {
 
-}
+};
 
 void _raise_description_error_exc() {
 
-}
+};
 
 void _raise_description_exc() {
 
-}
+};
 
 
 
